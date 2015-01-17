@@ -13,6 +13,8 @@
 		D033C9E21A6A19A0003864DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D033C9E11A6A19A0003864DF /* Images.xcassets */; };
 		D033C9E51A6A19A0003864DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D033C9E31A6A19A0003864DF /* LaunchScreen.xib */; };
 		D033C9F11A6A19A0003864DF /* NSUserDefaults_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D033C9F01A6A19A0003864DF /* NSUserDefaults_SwiftTests.swift */; };
+		D033C9FB1A6A19BE003864DF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D033C9FA1A6A19BE003864DF /* UserModel.swift */; };
+		D033C9FD1A6A235F003864DF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D033C9FC1A6A235F003864DF /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D033C9EA1A6A19A0003864DF /* NSUserDefaults SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D033C9EF1A6A19A0003864DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D033C9F01A6A19A0003864DF /* NSUserDefaults_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserDefaults_SwiftTests.swift; sourceTree = "<group>"; };
+		D033C9FA1A6A19BE003864DF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D033C9FC1A6A235F003864DF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				D033C9E11A6A19A0003864DF /* Images.xcassets */,
 				D033C9E31A6A19A0003864DF /* LaunchScreen.xib */,
 				D033C9D81A6A19A0003864DF /* Supporting Files */,
+				D033C9FA1A6A19BE003864DF /* UserModel.swift */,
+				D033C9FC1A6A235F003864DF /* DataManager.swift */,
 			);
 			path = "NSUserDefaults Swift";
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D033C9DD1A6A19A0003864DF /* ViewController.swift in Sources */,
+				D033C9FD1A6A235F003864DF /* DataManager.swift in Sources */,
+				D033C9FB1A6A19BE003864DF /* UserModel.swift in Sources */,
 				D033C9DB1A6A19A0003864DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				D033C9F61A6A19A0003864DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D033C9F71A6A19A0003864DF /* Build configuration list for PBXNativeTarget "NSUserDefaults SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				D033C9F91A6A19A0003864DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
