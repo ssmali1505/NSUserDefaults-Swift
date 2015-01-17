@@ -1,6 +1,6 @@
 # NSUserDefaults-Swift
  
-This example will give you all answers of folloing questions,
+This example will give you all answers of following questions,
  
 How to archive and unarchive custom objects in Swift?
 How to save custom object to NSUserDefaults in Swift?
