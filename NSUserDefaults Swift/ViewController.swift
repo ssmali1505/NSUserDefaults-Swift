@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
        
          println("\n\nCustom Object Print")
-        //Custom object retrive test
+        //Custom object get test
         var userObj1 : UserModel = DataManager.getData("user1") as UserModel
         
         println(userObj1)
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         userList.append(user3)
         DataManager.setData(userList, key: "userlist")
         
-        //Retrive array of custom objects
+        //get array of custom objects
         
         var userListObjects: AnyObject = DataManager.getData("userlist")
        
